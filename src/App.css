@@ -1,3 +1,7 @@
+:root {
+    --header-height: 94px; 
+}
+
 .App {
   text-align: center;
 }
@@ -13,14 +17,52 @@
 .App-header{
   position: fixed;
   background-color: #456;
-  height: 94px;
+  /*opacity: 0.5;*/
+  height: var(--header-height); 
+  /*94px;*/
   width: 100%;
   color: #000;
 }
+.App-footer{
+  background-color: #308001;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  text-align: right;
+  font-size: 2em;
+}
 .content{
+  padding-top: var(--header-height); 
+  /*94px;*/
   background-color: #789;
   height:100%;
 }
 .txtContainer{
   padding-right: 80%;
+}
+
+/* top menu */
+
+.topnav {
+  overflow: hidden;
+  background-color: #456;
+}
+
+.topnav a {
+  float: center;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 3em 3em;
+  /*text-decoration: none;*/
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(220,11,11,0.5);
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0a1b38;
+  color: white;
 }
