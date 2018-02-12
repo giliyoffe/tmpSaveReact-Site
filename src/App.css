@@ -24,12 +24,15 @@
   color: #000;
 }
 .App-footer{
-  background-color: #308001;
+  background-color: #79B;
   height: 50px;
   width: 100%;
-  color: #fff;
+  color: #424242;
   text-align: right;
   font-size: 2em;
+}
+.Footer-txt{
+  padding-right: 0.5em;
 }
 .content{
   padding-top: var(--header-height); 
