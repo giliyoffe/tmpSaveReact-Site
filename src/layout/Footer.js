@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <div className="App-footer">
 
-        <p> &copy;  G-Corp</p>
+        <p className="Footer-txt"> &copy;  G-Corp</p>
              
       </div>
     );
